@@ -1,3 +1,4 @@
+from django.shortcuts import render
 from flask import render_template, redirect, session, request, flash
 from flask_app import app
 
@@ -11,7 +12,7 @@ bcrypt = Bcrypt(app)
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+    return "Hola!"
 
 @app.route("/register-view")
 def register_view():
