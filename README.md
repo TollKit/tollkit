@@ -12,6 +12,16 @@
 Creating an electronic system that has all these functionalities and connects in real time with a Web Platform for the visualization of data and history of people who entered. In this way, staff can avoid performing repetitive tasks that could lead to injury or fatigue.
 </p>
 
+<h3>Views</h3>
+<h2>User Screen</h2>
+<a href='https://postimg.cc/FYGwmHXn' target='_blank'><img src='https://i.postimg.cc/25fYQ1cm/Vista-Usuario.png' border='0' alt='Vista-Usuario'/></a>
+
+<h2>Dashboard</h2>
+<a href='https://postimg.cc/gLn2yTqG' target='_blank'><img src='https://i.postimg.cc/QCqKDLFK/dashboard-Tollkit.png' border='0' alt='dashboard-Tollkit'/></a>
+
+<h2>Electronic Device</h2>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/ZRpVrqQk/Captura-de-pantalla-2022-08-27-153139.png' border='0' alt='Captura-de-pantalla-2022-08-27-153139'/></a>
+
 <h3>Technologies</h3>
 
 <table>
