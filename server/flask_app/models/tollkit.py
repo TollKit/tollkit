@@ -9,7 +9,6 @@ class Tollkit: #(burgers) ----> Student #(toppings)
         self.has_alcohol=data["has_alcohol"]
         self.created_at = data["created_at"]
         self.updated_at = data["updated_at"]
-
         self.admins_id= data["admins_id"]
 
     @classmethod

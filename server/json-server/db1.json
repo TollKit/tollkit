@@ -1,0 +1,74 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "name": "Jhomarcito",
+            "lastname": "Astuyauri",
+            "temp": 37.4,
+            "has_mask": true,
+            "has_studentCard": true,
+            "has_alcohol": false,
+            "has_covidCard": true
+        },
+        {
+            "id": 2,
+            "name": "Marko",
+            "lastname": "Julca",
+            "temp": 36.4,
+            "has_mask": false,
+            "has_studentCard": false,
+            "has_alcohol": false,
+            "has_covidCard": true
+        },
+        {
+            "id": 3,
+            "name": "Astrid",
+            "lastname": "Hurtado",
+            "temp": 38.1,
+            "has_mask": true,
+            "has_studentCard": false,
+            "has_alcohol": true,
+            "has_covidCard": true
+        } 
+    ],
+    "admins": [
+        {
+            "id": 1,
+            "name": "Jhomar",
+            "lastname": "Astuyauri",
+            "email": "jhomarcristianelias@gmail.com",
+            "password":"asdawd32e23r24r234rf24fd23d65234d654asd#"
+        },
+        {
+            "id": 2,
+            "name": "Nicolás",
+            "lastname": "Silva",
+            "email": "nicolasSilva@gmail.com",
+            "password":"asdawd32e23r24r234rf24fd23d65234d654asd#"
+        },
+        {
+            "id": 3,
+            "name": "Richard",
+            "lastname": "Elescano",
+            "email": "relescano@gmail.com",
+            "password":"asdawd32e23r24r234rf24fd23d65234d654asd#"
+        }
+    ],
+    "tollkits": [
+        {
+            "id": 1,
+            "number_door": 5,
+            "has_alcohol":true
+        }
+    ],
+    "universities": [
+        {
+            "id": 1,
+            "name": "UNI"
+        },
+        {
+            "id": 2,
+            "name": "UPCH"
+        }
+    ]
+}
