@@ -5,40 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='CSS/style.css') }}">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hurricane&family=Inspiration&family=Quicksand:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Login</title>
 </head>
-<body>
+<body class="body-login">
     <header>
-        <div class="header">
-            <div class="first_header">
-                <div class="logo">
-                    <a href="/">
-                        <img src="{{ url_for('static', filename='IMG/logo-png-tollkit.png')}}" alt="Logo Tollkit">
-                    </a>
-                </div>
-                <div class="accesos">
-                    <a href="/login-view" class="signin">
-                        <i class="fa fa-sign-in" aria-hidden="true"></i>
-                        <p>Login</p>
-                    </a>
-                    <a href="/register-view" class="register">Register</a>
-                </div>
-            </div>
-        </div>
+        
     </header>
     <main>
-        <div class="view" id="particles-js">
-            <div class="plane main">
-                
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#00FF8B" fill-opacity="1" d="M0,64L60,74.7C120,85,240,107,360,117.3C480,128,600,128,720,128C840,128,960,128,1080,138.7C1200,149,1320,171,1380,181.3L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+        <img src="../static/IMG/myriam-jessier-eveI7MOcSmw-unsplash.jpg" alt="dashboard" class="image_dashboard">
+        <!-- /login -> /dashboard -->
+        <form action="/dashboard" method="POST" class="card_login">
+            <div class="logo">
+                <img src="../static//IMG/logo-png-tollkit.png" alt="">
             </div>
-        </div>
-        <form action="/login" method="POST" class="card_login">
-            <p class="card_login_title">Login</p>
             <div class="form-group">
                 <p>
                     <label for="email">Email</label>
@@ -56,9 +36,5 @@
             <input type="submit" class="btn-primary" value="Login">
         </form>
     </main>
-    <script src="{{ url_for('static', filename='JS/particles.js') }}"></script>
-    <script src="{{ url_for('static', filename='JS/app.js') }}"></script>
-    <script src="{{ url_for('static', filename='JS/stats.js') }}"></script>
-
 </body>
 </html>
