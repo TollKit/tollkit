@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from flask import render_template, redirect, session, request, flash
 from flask_app import app
 
