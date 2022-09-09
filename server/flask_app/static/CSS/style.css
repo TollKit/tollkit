@@ -6,6 +6,7 @@
     --color-primary:#00FF8B;
     --color-secundary:#000000;
     --color-base:#1D1D2B;
+    --color-inputs:#242636;
 }
 
 *{
@@ -81,22 +82,133 @@ header{
 
 }
 
+.card_login .logo {
+    position: absolute;
+    right: 60px;
+    bottom: 200px;
+    margin-bottom: 20px;
+}
+.card_login .logo img{
+    width: 210px;
+}
 
 .card_login{
     background-color: transparent;
     border-radius: 10px;
     width: 300px;
-    height: 200px;
-    margin: 0 auto;
+    height: 300px;
+    /* margin: 80px auto; */
     padding: 15px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     position: absolute;
     top: 150px;
     left: 900px
 }
+.login_subtitle{
+    position: absolute;
+    top: 68px;
+    color:rgb(158, 149, 149);
+    font-size: 15px;
+    
+}
+
+.wave_top{
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+
+/* .form-group #email{
+    border-radius: 20px;
+    padding: 5px;
+    width: 200px;
+    background-color: var(--color-inputs);
+    border: 1px solid var(--color-inputs);
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+
+.form-group #password{
+    border-radius: 20px;
+    padding: 5px;
+    width: 200px;
+    background-color: var(--color-inputs);
+    border: 1px solid var(--color-inputs);
+    margin-bottom: 15px;
+} */
+
+.form__group {
+    position: relative;
+    padding: 20px 0 10px;
+    margin-top: 20px;
+    width: 300px;
+}
+.form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+.form__field::placeholder {
+    color: transparent;
+}
+.form__field:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+}
+.form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #9b9b9b;
+}
+.form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #11998e, #38ef7d);
+    border-image-slice: 1;
+}
+.form__field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #11998e;
+    font-weight: 700;
+}
+
+.form__field:required, .form__field:invalid {
+    box-shadow: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 1.5rem;
+    background-color: #222;
+}
+
+
 
 .image_dashboard{
     height: 100vh;
