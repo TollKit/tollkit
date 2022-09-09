@@ -4,12 +4,15 @@ from flask_app.models.admin import Admin
 from flask_app.models.tollkit import Tollkit
 from flask_app.models.university import University
 from flask_bcrypt import Bcrypt
+# from flask_app.mqtt import subscriber 
 
 bcrypt = Bcrypt(app)
 
 @app.route("/")
 def index():
-    return "Hola!asd"
+    # dicc = subscriber.main()
+    # return f"{dicc}"
+    return render_template("home.html")
 
 @app.route("/register-view")
 def register_view():

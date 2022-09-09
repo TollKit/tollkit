@@ -4,10 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/style.css') }}">
     <title>Home: Tollkit</title>
 </head>
 <body>
-    <h1>Bienvenido a Tollkit!</h1>
-    
+    <header>
+        <div class="logo">
+            <img src="../static//IMG/logo-png-tollkit.png" alt="">
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Q&A</a></li>
+                <li><a href="">Nosotros</a></li>
+                <li><a href="">Contáctanos</a></li>
+                <li id="navbar_acceso"><a href="">Acceso Usuarios</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#00FF8B" fill-opacity="1" d="M0,32L60,26.7C120,21,240,11,360,37.3C480,64,600,128,720,176C840,224,960,256,1080,224C1200,192,1320,96,1380,48L1440,0L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
