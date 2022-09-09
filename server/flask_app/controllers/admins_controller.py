@@ -1,20 +1,15 @@
 from flask import render_template, redirect, session, request, flash
 from flask_app import app
-
 from flask_app.models.admin import Admin
 from flask_app.models.tollkit import Tollkit
 from flask_app.models.university import University
+from flask_bcrypt import Bcrypt
 
-from flask_app.mqtt import subscriber 
-
-#from flask_bcrypt import Bcrypt
-
-#bcrypt = Bcrypt(app)
+bcrypt = Bcrypt(app)
 
 @app.route("/")
 def index():
-    dicc = subscriber.main()
-    return f"{dicc}"
+    return "Hola!asd"
 
 @app.route("/register-view")
 def register_view():
@@ -25,7 +20,7 @@ def register():
     if not Admin.valida_usuario(request.form):
         return redirect("/")
     # Agregamos nuestro nuevo PASSWORD ENCRIPTADO
-    ##pwd=bcrypt.generate_password_hash(request.form["password"])
+    pwd=bcrypt.generate_password_hash(request.form["password"])
     # CREAMOS nuestro nuevo diccionario con la PASSSWORD PROTEGIDA
     formulario={
         "name":request.form["name"],
