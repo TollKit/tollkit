@@ -56,23 +56,28 @@ def login():
 
     return redirect("/dashboard")
 
-@app.route("/dashboard")
+@app.route("/dashboard", methods=["POST"])
 def dashboard():
-    if "user_id" not in session:
-        return redirect("/")
+    # if "user_id" not in session:
+    #     return redirect("/")
     
-    data={
-        "id":session["user_id"]
-    }
+    # data={
+    #     "id":session["user_id"]
+    # }
 
     # Le mando mis datos y recibo un OBJETO USUARIO   
     # Usuario que INICIÓ SESIÓN  
-    user=Admin.get_by_id(data)
+    # user=Admin.get_by_id(data)
 
-    # Agregamos las products
-    products=Tollkit.get_all()
+    # # Agregamos las products
+    # products=Tollkit.get_all()
 
-    return render_template("dashboard.html",user=user, products=products)
+    return render_template("dashboard.html")
+
+@app.route("/tollkit-user")
+def tollkit_user():
+    
+    return render_template("tollkit_user.html")
 
 @app.route("/logout")
 def logout():

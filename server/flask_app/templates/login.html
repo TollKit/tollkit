@@ -4,36 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/login.css') }}">
     <title>Login</title>
 </head>
 <body class="body-login">
-    <header>
-        
-    </header>
+    
     <main>
-        <svg class="wave_top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#00FF8B" fill-opacity="1" d="M0,64L60,74.7C120,85,240,107,360,117.3C480,128,600,128,720,128C840,128,960,128,1080,138.7C1200,149,1320,171,1380,181.3L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+        
         <img src="../static/IMG/myriam-jessier-eveI7MOcSmw-unsplash.jpg" alt="dashboard" class="image_dashboard">
+        <a href="/" class="home-return">Home</a>
         <!-- /login -> /dashboard -->
         <form action="/dashboard" method="POST" class="card_login">
+            
             <div class="logo">
-                <img src="../static/IMG/logo-png-tollkit.png" alt="">
+                <a href="/">
+                    <img src="../static/IMG/logo-png-tollkit.png" alt="">
+                </a>
             </div>
             <p class="login_subtitle">Dashboard</p>
-            <!-- ???????????????????? -->
-            <!-- <div class="form__group field">
-                <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
-                <label for="name" class="form__label">Name</label>
-            </div> -->
-            <!-- ??????????????????? -->
-            <div class="form__group field">
-                <input type="email" name="email" id="email" class="form__field" placeholder="Email" required>
-                <label for="email" class="form__label">Correo Electrónico</label>
+            <div class="form_login_main">
+                <div class="form__group field">
+                    <input autocomplete="off" type="email" name="email" id="email" class="form__field" placeholder="Email" required>
+                    <label for="email" class="form__label">Correo Electrónico</label>
+                </div>
+                <div class="form__group field">
+                    <input type="password" name="password" id="password" class="form__field" placeholder="Contraseña" required>
+                    <label for="password" class="form__label">Contraseña </label>
+                </div>
             </div>
-            <div class="form__group field">
-                <input type="password" name="password" id="password" class="form__field" placeholder="Contraseña" required>
-                <label for="password" class="form__label">Contraseña </label>
-            </div>
+            
             <input type="submit" class="btn-primary" value="Login">
         </form>
     </main>
