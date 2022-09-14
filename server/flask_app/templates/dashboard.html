@@ -47,46 +47,18 @@
                     </tr>
                 </thead>
                 <tbody>
+                    {%for i in lista_dicc %}
                     <tr>
-                        <td>20181158E</td>
-                        <td>Estudiante</td>
-                        <td>Jhomar Astuyauri</td>
-                        <td>SÍ</td>
-                        <td>SÍ</td>
-                        <td>36.03</td>
-                        <td>sí</td>
-                        <td>13/09/2022</td>
+                        <td>---</td>
+                        <td>---</td>
+                        <td>{{i.has_studentCard}}</td>
+                        <td>---</td>
+                        <td>---</td>
+                        <td>{{i.temp}}</td>
+                        <td>---</td>
+                        <td>---</td>
                     </tr>
-                    <tr>
-                        <td>20191008k</td>
-                        <td>Estudiante</td>
-                        <td>Mark Sito</td>
-                        <td>SÍ</td>
-                        <td>NO</td>
-                        <td>37.03</td>
-                        <td>SÍ</td>
-                        <td>12/09/2022</td>
-                    </tr>
-                    <tr>
-                        <td>20191008k</td>
-                        <td>Estudiante</td>
-                        <td>Mark Sito</td>
-                        <td>SÍ</td>
-                        <td>NO</td>
-                        <td>37.03</td>
-                        <td>SÍ</td>
-                        <td>12/09/2022</td>
-                    </tr>
-                    <tr>
-                        <td>20191008k</td>
-                        <td>Estudiante</td>
-                        <td>Mark Sito</td>
-                        <td>SÍ</td>
-                        <td>NO</td>
-                        <td>37.03</td>
-                        <td>SÍ</td>
-                        <td>12/09/2022</td>
-                    </tr>
+                    {% endfor %}
                 </tbody>
             </table>
         </div>

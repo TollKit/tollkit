@@ -3,10 +3,10 @@ from flask_app import app
 from flask_app.models.admin import Admin
 from flask_app.models.tollkit import Tollkit
 from flask_app.models.university import University
-from flask_bcrypt import Bcrypt
-# from flask_app.mqtt import subscriber 
+#from flask_bcrypt import Bcrypt
+from flask_app.mqtt import subscriber_rfid,subscriber_temp
 
-bcrypt = Bcrypt(app)
+#bcrypt = Bcrypt(app)
 
 @app.route("/")
 def index():
@@ -71,8 +71,21 @@ def dashboard():
 
     # # Agregamos las products
     # products=Tollkit.get_all()
+    lista_dicc = []
+    data_rfid = subscriber_rfid.main()
+    data_temp = subscriber_temp.main()
+    dicc={
+        "temp":
+        data_temp,
+        "has_studentCard":
+        data_rfid,
+    }
+    
+    lista_dicc.append(dicc)
+    print(lista_dicc)
 
-    return render_template("dashboard.html")
+    return render_template("dashboard.html", lista_dicc=lista_dicc)
+
 
 @app.route("/tollkit-user")
 def tollkit_user():
