@@ -22,6 +22,40 @@ Creating an electronic system that has all these functionalities and connects in
 <h2>Electronic Device</h2>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/ZRpVrqQk/Captura-de-pantalla-2022-08-27-153139.png' border='0' alt='Captura-de-pantalla-2022-08-27-153139'/></a>
 
+<h3>Electronic Components</h3>
+<table>
+    <tbody>
+        <tr>
+            <td>RFID</td>
+            <td>RFID o Radio Frequency Identification es una tecnología mediante la cual los datos digitales codificados en etiquetas RFID o etiquetas inteligentes son capturados por un lector RFID a través de ondas de radio.
+			<a href='https://postimg.cc/D8qqJHrj' target='_blank'><img src='https://i.postimg.cc/D8qqJHrj/RFID.png' border='0' alt='RFID'/></a>
+			</td>
+        </tr>
+        <tr>
+            <td>ESP32</td>
+            <td>Microcontrolador programable con ide arduino con un módulo WiFi integrado. Este será usado para la adquisición de las señales porvenientes de los sensores y del envío mediante MQTT.
+			<a href='https://postimg.cc/dDX7BYmQ' target='_blank'><img src='https://i.postimg.cc/dDX7BYmQ/esp32.png' border='0' alt='esp32'/></a>
+            </td>
+        </tr>
+        <tr>
+            <td>Hardware</td>
+            <td>Arduino Nano, Raspberry 3B+, HC-SR04 Ultrasonic Sensor, Mlx90614 Infrared Temperature Sensor, Relay, RFID Card, LCD with I2C module, LED Matrix, Buzzer and LEDS</td>
+        </tr>
+        <tr>
+            <td>IDE/Code Editor/Desktop Application</td>
+            <td>Arduino IDE, VSCode, Solidworks and ThonnyIDE</td>
+        </tr>
+        <tr>
+            <td>Methodology</td>
+            <td>Design Thinking and Software Development Cycle + Product Roadmap</td>
+        </tr>
+        <tr>
+            <td>Extra</td>
+            <td>PLA Filament, Water Pump, Jumpers, Tripod and Matte Black Spray</td>
+        </tr>
+    </tbody>
+<table>
+
 <h3>Technologies</h3>
 
 <table>
