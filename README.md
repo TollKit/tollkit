@@ -3,7 +3,7 @@
 <h1>Welcome to TollKit!</h1>
 <p>Today, the pandemic has changed the way we go out and enter establishments (shopping centers, restaurants, etc.) in many ways due to COVID-19 restrictions. For this reason, we created TollKit, focused on SDG 3, where we seek to complement the work of security personnel at the entrance of an establishment by requesting:
 <ul>
-    <li>Face mask</li>
+    <li>Hola/li>
     <li>Vaccination card</li>
     <li>Temperature less than 38.5</li>
     <li>Use alcohol gel</li>
