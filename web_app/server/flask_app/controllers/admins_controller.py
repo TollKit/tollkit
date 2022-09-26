@@ -6,6 +6,8 @@ from flask_app.models.university import University
 #from flask_bcrypt import Bcrypt
 from flask_app.mqtt import subscriber_rfid,subscriber_temp
 
+from flask_app.QRcard_vacunation import web_selenium
+
 #bcrypt = Bcrypt(app)
 
 @app.route("/")
@@ -74,13 +76,16 @@ def dashboard():
     lista_dicc = []
     data_rfid = subscriber_rfid.main()
     data_temp = subscriber_temp.main()
+
+    data_qr_card= web_selenium.main()
+    print(data_qr_card)
+    print(type(data_qr_card))
     dicc={
-        "temp":
-        data_temp,
-        "has_studentCard":
-        data_rfid,
+        "temp":data_temp,
+        "has_studentCard":data_rfid,
+        "has_covidCard":data_qr_card[1],
+        "name":data_qr_card[0]
     }
-    
     lista_dicc.append(dicc)
     print(lista_dicc)
 
