@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/tensorflow-%3E%3D1.15.2-brightgreen) ![](https://img.shields.io/badge/keras-2.3.1-brightgreen) ![](https://img.shields.io/badge/imutils-0.5.3-brightgreen) ![](https://img.shields.io/badge/numpy-1.18.2-brightgreen) ![](https://img.shields.io/badge/opencv--python-4.2.0.*-brightgreen) ![](https://img.shields.io/badge/matplotlib-3.2.1-brightgreen) ![](https://img.shields.io/badge/scipy-1.4.1-brightgreen) ![](https://img.shields.io/badge/flask-2.0.2-orange) ![](https://img.shields.io/badge/flask--bcrypt-0.7.1-orange) ![](https://img.shields.io/badge/jinja2-3.0.3-orange) ![](https://img.shields.io/badge/pymysql-1.0.2-orange) ![](https://img.shields.io/badge/selenium-4.1.0-brightgreen) ![]() ![]() ![]() ![]() ![]() ![]() ![]() ![]() 
 
 <center><a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/SsHgvXcM/Toll-Kit-github.png' border='0' alt='Toll-Kit-github'/></a></center>
-<h1>¡Bienvenido a TollKit!</h1>
+<h1>¡Bienvenid@ a TollKit!</h1>
 <p>A día de hoy la pandemia ha cambiado en muchas formas la manera en cómo salimos y entramos a establecimientos (Centros comerciales, restaurantes, universidades, etc.) por restricciones de COVID-19. A partir de esto han surgido nuevas responsabilidades como el del personal de seguridad encargado de verificar si cuentas con Mascarilla, Carnet de Vacunación con 3 dosis, Temperatura menor a 38.5, Carnet Universitario, verter alcohol en gel para la desinfección de tus manos y finalmente permitirte el pase al establecimiento.
 <p>Identificamos las siguientes 3 problemáticas:</p>
 <ul>
