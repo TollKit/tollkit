@@ -105,8 +105,9 @@ Para el desarrollo del proyecto se requiere el control de una bomba de agua, la 
 
 <h3>Team Members</h3>
 <ul>
-    <li>Hector Llamaccponca</li>
+    <li>Sebastián Nizama</li>
     <li>Richard Elescano</li>
-    <li>Jean Kevin Inga</li>
+    <li>Marko Julca</li>
+    <li>Nicolás Silva</li>
     <li>Jhomar Astuyauri</li>
 </ul>
