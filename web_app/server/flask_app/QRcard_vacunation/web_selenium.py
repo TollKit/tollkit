@@ -19,18 +19,18 @@ def main():
     driver=webdriver.Chrome(path)
     #Abrir la página
     driver.get(website)
-    time.sleep(10)
+    time.sleep(15)
     nombre=driver.find_element(by='xpath',value="/html/body/app-root/app-verify-qr/div/div/app-result/div/div/div[2]/div/div/div[1]/div[1]/div[3]/span")
-    print("--")
-    print(type(nombre.text))
-    print(nombre.text)
+    # print("--")
+    # print(type(nombre.text))
+    # print(nombre.text)
     dosis=driver.find_element(by='xpath',value="/html/body/app-root/app-verify-qr/div/div/app-result/div/div/div[2]/div/div/div[1]/div[1]/div[5]/h3[2]")
-    print(type(dosis.text))
-    print(dosis.text)
+    # print(type(dosis.text))
+    # print(dosis.text)
     edad=driver.find_element(by='xpath', value="/html/body/app-root/app-verify-qr/div/div/app-result/div/div/div[2]/div/div/div[1]/div[1]/div[4]/span[2]")
     lista_edad=edad.text.split(' ')
     probar_edad=int(lista_edad[1])
-    print(int(probar_edad))
+    # print(int(probar_edad))
     #if(dosis.text!='CON TERCERA DOSIS'):
         
     data=[nombre.text,dosis.text,probar_edad]

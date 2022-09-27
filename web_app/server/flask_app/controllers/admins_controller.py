@@ -5,10 +5,11 @@ from flask_app.models.tollkit import Tollkit
 from flask_app.models.university import University
 #from flask_bcrypt import Bcrypt
 from flask_app.mqtt import subscriber_rfid,subscriber_temp
-
 from flask_app.QRcard_vacunation import web_selenium
-
+from flask_app.faceMask_detection import detect_mask_video
 #bcrypt = Bcrypt(app)
+from subprocess import *
+# pip install subprocess.run
 
 @app.route("/")
 def index():
@@ -74,17 +75,28 @@ def dashboard():
     # # Agregamos las products
     # products=Tollkit.get_all()
     lista_dicc = []
-    data_rfid = subscriber_rfid.main()
-    data_temp = subscriber_temp.main()
+    print("==================[INICIALIZANDO TOLLKIT]==================")
+    print("----[Paso 1: DETECTANDO SU MASCARILLA]----")
+    # print(call(["python", "detect_mask_video.py"]))
+    data_mask_status = detect_mask_video.detect_mask_flask()
+    print(data_mask_status)
+    if data_mask_status==True and data_mask_status!=None:
+        print("----[Paso 2: MUESTRE SU CARNET DE VACUNACIÓN]----")
+        data_qr_card= web_selenium.main()
+        print(data_qr_card)
+        if data_qr_card:
+            print("----[Paso 3: DETECTANDO SU CARNET UNIVERSITARIO]----")
+            data_rfid = subscriber_rfid.main()
+            print("----[Paso 4: IDENTIFICANDO SU TEMPERATURA]----")
+            data_temp = subscriber_temp.main()
+            # Paso 5: Alcohol en gel
 
-    data_qr_card= web_selenium.main()
-    print(data_qr_card)
-    print(type(data_qr_card))
     dicc={
         "temp":data_temp,
         "has_studentCard":data_rfid,
         "has_covidCard":data_qr_card[1],
-        "name":data_qr_card[0]
+        "name":data_qr_card[0],
+        "has_mask":data_mask_status,
     }
     lista_dicc.append(dicc)
     print(lista_dicc)

@@ -73,17 +73,18 @@ def detect_and_predict_mask(frame, faceNet, maskNet):
 
 def detect_mask_flask():
 	# load our serialized face detector model from disk
-	prototxtPath = r"face_detector/deploy.prototxt"
-	weightsPath = r"face_detector/res10_300x300_ssd_iter_140000.caffemodel"
+	prototxtPath = r"D:\Jhomar\RAS UNI 2022\Intercon\Hackathon IA\github\repo_github\tollkit\web_app\server\flask_app\faceMask_detection\face_detector\deploy.prototxt"
+	weightsPath = r"D:\Jhomar\RAS UNI 2022\Intercon\Hackathon IA\github\repo_github\tollkit\web_app\server\flask_app\faceMask_detection\face_detector\res10_300x300_ssd_iter_140000.caffemodel"
 	faceNet = cv2.dnn.readNet(prototxtPath, weightsPath)
 
 	# load the face mask detector model from disk
-	maskNet = load_model("mask_detector.model")
+	maskNet = load_model(r"D:\Jhomar\RAS UNI 2022\Intercon\Hackathon IA\github\repo_github\tollkit\web_app\server\flask_app\faceMask_detection\mask_detector.model")
 
 	# initialize the video stream
 	print("[INFO] starting video stream...")
 	vs = VideoStream(src=0).start()
 	cont=0
+	cont2=0 #Si no tiene mascarilla
 	flag = True
 	# loop over the frames from the video stream
 	while flag:
@@ -116,7 +117,19 @@ def detect_mask_flask():
 					# Especificar el valor a recibir
 					flag=False
 					print("Tiene Mascarilla")
+					cv2.destroyAllWindows()
+					vs.stop()
 					return True
+			else:
+				cont2+=1
+				# 110 -> 10 segundos
+				if cont2 == 110:
+					cont2=0
+					flag = False
+					print("No tiene Mascarilla")
+					cv2.destroyAllWindows()
+					vs.stop()
+					return False
 			# include the probability in the label
 			label = "{}: {:.2f}%".format(label, max(mask, withoutMask) * 100)
 
