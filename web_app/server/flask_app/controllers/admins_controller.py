@@ -4,11 +4,12 @@ from flask_app.models.admin import Admin
 from flask_app.models.tollkit import Tollkit
 from flask_app.models.university import University
 #from flask_bcrypt import Bcrypt
-from flask_app.mqtt import subscriber_rfid,subscriber_temp
+from flask_app.mqtt import subscriber_rfid,subscriber_temp, subscriber_alcohol
 from flask_app.QRcard_vacunation import web_selenium
 from flask_app.faceMask_detection import detect_mask_video
 #bcrypt = Bcrypt(app)
 from subprocess import *
+
 # pip install subprocess.run
 
 @app.route("/")
@@ -90,6 +91,8 @@ def dashboard():
             print("----[Paso 4: IDENTIFICANDO SU TEMPERATURA]----")
             data_temp = subscriber_temp.main()
             # Paso 5: Alcohol en gel
+            print("----[Paso 5: DISPENSANDO ALCOHOL EN GEL]----")
+            data_alcohol = subscriber_alcohol.main()
 
     dicc={
         "temp":data_temp,
@@ -97,6 +100,7 @@ def dashboard():
         "has_covidCard":data_qr_card[1],
         "name":data_qr_card[0],
         "has_mask":data_mask_status,
+        "has_alcohol":data_alcohol,
     }
     lista_dicc.append(dicc)
     print(lista_dicc)
