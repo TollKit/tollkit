@@ -38,6 +38,7 @@ def receptor(cliente,userdata,mensaje):
         'has_covidCard': true
         }
         '''
+        
 def main():
     global n_paso
     global diccionario

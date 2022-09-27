@@ -9,6 +9,7 @@ from selenium.webdriver.common.by import By
 import time
 from time import sleep
 import unittest
+import pyautogui
 
 def main():
     website='https://carnetvacunacion.minsa.gob.pe/#/verify-qr/enable'
@@ -19,7 +20,17 @@ def main():
     driver=webdriver.Chrome(path)
     #Abrir la página
     driver.get(website)
-    time.sleep(15)
+    # ========= PYAUTOGUI ACTION ===========
+    # obs.: Tener en cuenta las dimensiones de su pantalla (1366,768)
+    time.sleep(4)
+    pyautogui.click(292, 179) 
+    time.sleep(2)
+    pyautogui.click(984, 405)
+    time.sleep(2)
+    pyautogui.click(977, 353) 
+    
+    print("---MUESTRE EL QR DE SU CARNET DE VACUNACIÓN---")
+    time.sleep(5)
     nombre=driver.find_element(by='xpath',value="/html/body/app-root/app-verify-qr/div/div/app-result/div/div/div[2]/div/div/div[1]/div[1]/div[3]/span")
     # print("--")
     # print(type(nombre.text))
