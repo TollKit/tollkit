@@ -1,4 +1,4 @@
-# ¡Bienvenid@ a TollKit!
+<h1>¡Bienvenid@ a TollKit</h1>
 
 <center><a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/SsHgvXcM/Toll-Kit-github.png' border='0' alt='Toll-Kit-github'/></a></center>
 
@@ -13,25 +13,21 @@ A día de hoy la pandemia ha cambiado en muchas formas la manera en cómo salimo
 </ul>
 Por esa razón decidimos crear TollKit, una herramienta que busca complementar la labor del personal de seguridad haciendo todas las tareas repetitivas de verificación de Mascarilla, Carnet de Vacunación con 3 dosis, Temperatura menor a 38.5, Carnet Universitario y dispensar alcohol en gel. Proporcionando además un Dashboard con todas las métricas necesarias para tener controladas las restricciones por COVID19. De esta forma, el personal podrá hacerse cargo de otras responsabilidades que impliquen un esfuerzo humano necesario.
 </p>
-**Tabla de contenidos**
 
-[TOCM]
-
-
-##Vistas
-###Vista de usuario
+<h3>Vistas</h3>
+<h2>Vista de usuario</h2>
 <a href='https://postimg.cc/FYGwmHXn' target='_blank'><img src='https://i.postimg.cc/25fYQ1cm/Vista-Usuario.png' border='0' alt='Vista-Usuario'/></a>
-----
-###Dashboard
+
+<h2>Dashboard</h2>
 <a href='https://postimg.cc/gLn2yTqG' target='_blank'><img src='https://i.postimg.cc/QCqKDLFK/dashboard-Tollkit.png' border='0' alt='dashboard-Tollkit'/></a>
 
 
 
-##Equipo electrónico
-###Toolkit implementado
+<h3>Equipo electrónico</h3>
+<h2>Toolkit implementado</h2>
 <a href='https://postimg.cc/68HMgmcM' target='_blank'><img src='https://i.postimg.cc/68HMgmcM/tool.png' border='0' alt='tool'/></a>
 
-###Componentes electrónicos
+<h2>Componentes electrónicos</h2>
 | Componente  | Descripción  | Imágen de referencia |
 | :------------ |:---------------| -----:|
 | RFID módulo RC522   | El módulo RC522 es Lector-Grabador RFID 13.56MHz, posee comunicación SPI lo que permite trabajar fácilmente con la mayoría de microcontroladores. El rango de detección de tags RFID es de aprox. 5-7cm. Compatible con Arduino, Pic, Raspberry Pi y más. | <a href='https://postimg.cc/D8qqJHrj' target='_blank'><img src='https://i.postimg.cc/D8qqJHrj/RFID.png' border='0' alt='RFID'/></a> |
