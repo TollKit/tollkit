@@ -36,7 +36,6 @@
             <table id="tollkit_data">
                 <thead>
                     <tr>
-                        <th>Código</th>
                         <th>Grupo</th>
                         <th>Nombre y Apellido</th>
                         <th>Vacuna</th>
@@ -49,14 +48,14 @@
                 <tbody>
                     {%for i in lista_dicc %}
                     <tr>
-                        <td>---</td>
+                        
                         <td>{{i.has_studentCard}}</td>
                         <td>{{i.name}}</td>
                         <td>{{i.has_covidCard}}</td>
                         <td>{{i.has_mask}}</td>
                         <td>{{i.temp}}</td>
-                        <td>---</td>
-                        <td>---</td>
+                        <td>{{i.has_alcohol}}</td>
+                        <td>{{i.date}}</td>
                     </tr>
                     {% endfor %}
                 </tbody>

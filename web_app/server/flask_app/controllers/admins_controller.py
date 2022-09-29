@@ -9,7 +9,7 @@ from flask_app.QRcard_vacunation import web_selenium
 from flask_app.faceMask_detection import detect_mask_video
 #bcrypt = Bcrypt(app)
 from subprocess import *
-
+import time
 # pip install subprocess.run
 
 @app.route("/")
@@ -86,13 +86,20 @@ def dashboard():
         data_qr_card= web_selenium.main()
         print(data_qr_card)
         if data_qr_card:
-            print("----[Paso 3: DETECTANDO SU CARNET UNIVERSITARIO]----")
-            data_rfid = subscriber_rfid.main()
-            print("----[Paso 4: IDENTIFICANDO SU TEMPERATURA]----")
+            print("----[Paso 3: IDENTIFICANDO SU TEMPERATURA]----")
             data_temp = subscriber_temp.main()
+
+            print("----[Paso 4: DETECTANDO SU CARNET UNIVERSITARIO]----")
+            data_rfid = subscriber_rfid.main()
+            
             # Paso 5: Alcohol en gel
             print("----[Paso 5: DISPENSANDO ALCOHOL EN GEL]----")
             data_alcohol = subscriber_alcohol.main()
+
+    
+    fecha_actual=time.strftime("%Y-%m-%d")
+    print(fecha_actual)
+    # temp_fecha_actual = time.strptime(fecha_actual, "%Y-%m-%d")
 
     dicc={
         "temp":data_temp,
@@ -101,12 +108,12 @@ def dashboard():
         "name":data_qr_card[0],
         "has_mask":data_mask_status,
         "has_alcohol":data_alcohol,
+        "date": fecha_actual,
     }
     lista_dicc.append(dicc)
     print(lista_dicc)
 
     return render_template("dashboard.html", lista_dicc=lista_dicc)
-
 
 @app.route("/tollkit-user")
 def tollkit_user():
@@ -118,4 +125,3 @@ def logout():
     # Con este clear() borramos todas nuestras sessiones
     session.clear()
     return redirect("/")
-

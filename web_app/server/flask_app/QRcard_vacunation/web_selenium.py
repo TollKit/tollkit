@@ -27,10 +27,10 @@ def main():
     time.sleep(2)
     pyautogui.click(984, 405)
     time.sleep(2)
-    pyautogui.click(977, 353) 
+    pyautogui.click(984, 321) 
     
     print("---MUESTRE EL QR DE SU CARNET DE VACUNACIÓN---")
-    time.sleep(5)
+    time.sleep(10)
     nombre=driver.find_element(by='xpath',value="/html/body/app-root/app-verify-qr/div/div/app-result/div/div/div[2]/div/div/div[1]/div[1]/div[3]/span")
     # print("--")
     # print(type(nombre.text))
