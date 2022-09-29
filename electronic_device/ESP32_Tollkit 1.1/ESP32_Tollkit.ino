@@ -89,6 +89,9 @@ void setup() {
 }
 
 void loop() {
+  if(!client.connected()) //para que se reconecte//
+  reconnect();
+ 
   digitalWrite(trig, HIGH);
   delayMicroseconds(10);
   digitalWrite(trig, LOW);
@@ -157,12 +160,12 @@ void loop() {
   
   double h=mlx.readObjectTempC()+calibracion; //lectura del sensor de temperatura
   String ST=String(h,2);
-  if(!client.connected()) //para que se reconecte//
-  reconnect();
+  //if(!client.connected()) //para que se reconecte//
+  //reconnect();
   
   //SENSOR TEMPERATURA
   client.loop();
-  if(h>28 && estado_actual==1){
+  if(h>35 && estado_actual==1){
     client.publish("temp", ST.c_str()); //ENVIO MQTT TEMPERATURA
     estado_actual = 2;
     lcd.clear();
