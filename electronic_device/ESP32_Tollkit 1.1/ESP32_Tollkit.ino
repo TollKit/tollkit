@@ -121,7 +121,7 @@ void loop() {
     lcd.setCursor(0,0);
     lcd.print("4/5 Carnet"); // Mensaje a desplegar
     lcd.setCursor(0,1);
-    lcd.print("universiario"); // Mensaje a desplegar
+    lcd.print("universitario"); // Mensaje a desplegar
     }
   if (estado_actual == 3){
     lcd.clear();
