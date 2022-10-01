@@ -71,6 +71,9 @@ Por esa razón decidimos crear TollKit, una herramienta que busca complementar l
 | Bomba de agua AD20P | Es una bomba de agua DC sin escobillas con las características de larga vida, bajo ruido, chispa inversa, etc. Sin interferencias electromagnéticas. Voltaje de funcionamiento: CC 12 V. Corriente de funcionamiento: 400 mA. Cabezal máximo: 118.1 in. Caudal máximo: 240 L.  |  <a href='https://postimg.cc/7fYVyy6S' target='_blank'><img src='https://i.postimg.cc/7fYVyy6S/pump.jpg' border='0' alt='pump'/></a>|
 | ESP32 | Microcontrolador programable con ide arduino con un módulo WiFi integrado. Este será usado para la adquisición de las señales porvenientes de los sensores y del envío de datos mediante MQTT.  |  <a href='https://postimg.cc/dDX7BYmQ' target='_blank'><img src='https://i.postimg.cc/dDX7BYmQ/esp32.png' border='0' alt='esp32'/></a>|
 
+<h2>aplicación web</h2>
+<h3>Programa de detección de mascarilla</h3>
+
 <h2>Team Members</h2>
 <ul>
     <li>Sebastián Nizama</li>
