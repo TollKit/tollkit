@@ -1,10 +1,52 @@
-# ¡Bienvenid@ a TollKit!
+# Sistema de Control de Acceso por COVID-19 [Open Source]
+
+![](https://img.shields.io/badge/tensorflow-%3E%3D1.15.2-brightgreen) ![](https://img.shields.io/badge/keras-2.3.1-brightgreen) ![](https://img.shields.io/badge/imutils-0.5.3-brightgreen) ![](https://img.shields.io/badge/numpy-1.18.2-brightgreen) ![](https://img.shields.io/badge/opencv--python-4.2.0.*-brightgreen) ![](https://img.shields.io/badge/matplotlib-3.2.1-brightgreen) ![](https://img.shields.io/badge/scipy-1.4.1-brightgreen) ![](https://img.shields.io/badge/flask-2.0.2-orange) ![](https://img.shields.io/badge/flask--bcrypt-0.7.1-orange) ![](https://img.shields.io/badge/jinja2-3.0.3-orange) ![](https://img.shields.io/badge/pymysql-1.0.2-orange) ![](https://img.shields.io/badge/selenium-4.1.0-brightgreen) ![](https://img.shields.io/badge/pyautogui-0.9.53-red) ![]() ![]() ![]() ![]() ![]() ![]() ![]() 
 
 <center><a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/SsHgvXcM/Toll-Kit-github.png' border='0' alt='Toll-Kit-github'/></a></center>
 
 ---
 
-![](https://img.shields.io/badge/tensorflow-%3E%3D1.15.2-brightgreen) ![](https://img.shields.io/badge/keras-2.3.1-brightgreen) ![](https://img.shields.io/badge/imutils-0.5.3-brightgreen) ![](https://img.shields.io/badge/numpy-1.18.2-brightgreen) ![](https://img.shields.io/badge/opencv--python-4.2.0.*-brightgreen) ![](https://img.shields.io/badge/matplotlib-3.2.1-brightgreen) ![](https://img.shields.io/badge/scipy-1.4.1-brightgreen) ![](https://img.shields.io/badge/flask-2.0.2-orange) ![](https://img.shields.io/badge/flask--bcrypt-0.7.1-orange) ![](https://img.shields.io/badge/jinja2-3.0.3-orange) ![](https://img.shields.io/badge/pymysql-1.0.2-orange) ![](https://img.shields.io/badge/selenium-4.1.0-brightgreen) ![](https://img.shields.io/badge/pyautogui-0.9.53-red) ![]() ![]() ![]() ![]() ![]() ![]() ![]() 
+## Acerca del Proyecto
+
+### Motivación
+
+### Comunicación
+
+Adicionalmente a este repositorio que contiene toda la documentación de este proyecto, existe una web adicional vinculada a este proyecto (Landing Page TollKit) que contiene información general de TollKit.
+
+Para comunicarnos con el equipo y nuestros mentores usamos:
+
+* Google Meet
+* WhatsApp
+
+
+### Habilidades
+
+Este proyecto tiene elementos de ensamblaje mecánico, utiliza componentes electrónicos y tiene un software que lo ejecutará todo. Para completar con éxito este proyecto necesitará tener algo de experiencia en lo siguiente:
+
+* **Diseño Mécanico:**
+
+
+* **Electrónica:**
+
+
+
+* **Software::**
+
+La mayoría de requisitos son habilidades que puede aprender y adquirir con bastante rapidez viendo videos e investigando en Internet, y a lo largo del proyecto también tratamos de brindar información complementaria sobre algunas de ellas.
+
+### Compromiso de tiempo esperado
+
+Según nuestra experiencia, la construcción de este proyecto requiere no menos de 100 horas-persona y, según la familiaridad y el nivel de habilidad de los involucrados, podría ser mucho más. *Sin embargo, este proyecto generalmente pretende ser una herramienta de enseñanza y aprendizaje.* A lo largo de la documentación, tratamos de brindar información complementaria para aquellos que puedan ser nuevos en este tipo de proyecto.
+
+
+
+### Roadmap de implementación
+
+<a href='https://postimg.cc/MMtP3vhz' target='_blank'><img src='https://i.postimg.cc/gjbCJhsL/roadmap-Toll-Kit.jpg' border='0' alt='roadmap-Toll-Kit'/></a>
+
+------------------------------------------------------------------------
+
 
 A día de hoy la pandemia ha cambiado en muchas formas la manera en cómo salimos y entramos a establecimientos (Centros comerciales, restaurantes, universidades, etc.) por restricciones de COVID-19. A partir de esto han surgido nuevas responsabilidades como el del personal de seguridad encargado de verificar si cuentas con Mascarilla, Carnet de Vacunación con 3 dosis, Temperatura menor a 38.5, Carnet Universitario, verter alcohol en gel para la desinfección de tus manos y finalmente permitirte el pase al establecimiento.
 <p>Identificamos las siguientes 3 problemáticas:</p>
