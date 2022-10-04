@@ -45,6 +45,17 @@ Según nuestra experiencia, la construcción de este proyecto requiere no menos 
 
 <a href='https://postimg.cc/MMtP3vhz' target='_blank'><img src='https://i.postimg.cc/gjbCJhsL/roadmap-Toll-Kit.jpg' border='0' alt='roadmap-Toll-Kit'/></a>
 
+Esta es una ruta para construir un TollKit y se divide en 6 etapas:
+
+* **Etapa 1:** Empieza planificando el proyecto, teniendo en cuenta la disponibilidad de cada miembro, conocimientos y nuevas funcionalidades que quieran integrarle. Te recomendamos usar Trello!
+
+* **Etapa 2:** Consigue todos los componentes electrónicos, filamento y elabora una arquitectura de software.
+* **Etapa 3:** Empieza a probar el correcto funcionamiento de cada módulo electrónico por separado y descarga las librerías/frameworks necesarios.
+* **Etapa 4:** Ensambla el diseño 3D...
+* **Etapa 5:**
+* **Etapa 6:**
+
+
 ------------------------------------------------------------------------
 
 
