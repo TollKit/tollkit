@@ -10,15 +10,6 @@
 
 ### Motivación
 
-### Comunicación
-
-Adicionalmente a este repositorio que contiene toda la documentación de este proyecto, existe una web adicional vinculada a este proyecto (Landing Page TollKit) que contiene información general de TollKit.
-
-Para comunicarnos con el equipo y nuestros mentores usamos:
-
-* Google Meet
-* WhatsApp
-
 
 ### Habilidades
 
