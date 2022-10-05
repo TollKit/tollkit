@@ -46,7 +46,7 @@ Esta es una ruta para construir un TollKit y se divide en 6 etapas:
 
 ## Empieza aquí
 
-* [Propósito](https://github.com/TollKit/tollkit/blob/master/electronic_device/docElectronica.md)
+* [Propósito](https://github.com/TollKit/tollkit/blob/master/proposito.md)
 
 * [Electrónica](https://github.com/TollKit/tollkit/blob/master/electronic_device/docElectronica.md)
 * Visión Computarizada

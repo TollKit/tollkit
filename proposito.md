@@ -7,3 +7,9 @@ A día de hoy la pandemia ha cambiado en muchas formas la manera en cómo salimo
     <li>Es cierto que en muchos lugares el personal de seguridad está atento a que cada persona cumpla con las consideraciones mínimas para ingresar a un establecimiento, sin embargo, también es cierto que entre tantas personas, el error humano puede estar presente. El personal de seguridad no siempre verifica que se tenga un carnet de vacunación real y muchas veces vierte cualquier cantidad de gel.</li>
 </ul>
 Por esa razón decidimos crear TollKit, una herramienta que busca complementar la labor del personal de seguridad haciendo todas las tareas repetitivas de verificación de Mascarilla, Carnet de Vacunación con 3 dosis, Temperatura menor a 38.5, Carnet Universitario y dispensar alcohol en gel. Proporcionando además un Dashboard con todas las métricas necesarias para tener controladas las restricciones por COVID19. De esta forma, el personal podrá hacerse cargo de otras responsabilidades que impliquen un esfuerzo humano necesario.</p>
+
+<center>
+    <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/jdzDsWPp/seguridad1.png' height="450px" border='0' alt='seguridad1'/></a>
+    <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/nLwzdqfD/seguridad2.png' height="450px" border='0' alt='seguridad2'/></a>
+    <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/sXk2zyXf/seguridad3.png' height="450px" border='0' alt='seguridad3'/></a>
+</center>
