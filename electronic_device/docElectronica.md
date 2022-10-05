@@ -62,6 +62,7 @@ Para esta aplicacion en especifico se uso este modulo para regular el ingreso en
 ---------
 
 Las conexiones serán las siguientes:
+
 <a href='https://postimg.cc/ThqHsVgw' target='_blank'><img src='https://i.postimg.cc/ThqHsVgw/nfc-osc-bb-g-Bdc-Dg8-Rq9.jpg' border='0' alt='nfc-osc-bb-g-Bdc-Dg8-Rq9'/></a>
 
 ---------
