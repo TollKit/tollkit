@@ -46,10 +46,12 @@ Esta es una ruta para construir un TollKit y se divide en 6 etapas:
 
 ## Empieza aquí
 
-* [Electrónica](https://github.com/)
-* [Visión Computarizada](https://github.com/)
+* [Electrónica](https://github.com/TollKit/tollkit/blob/master/electronic_device/docElectronica.md)
+* Visión Computarizada
+    * [Reconocimiento de Mascarilla](https://github.com/TollKit/tollkit/blob/master/web_app/server/flask_app/faceMask_detection/docDeteccionMascarilla.md)
+    * [Detección del Carnet de Vacunación](https://github.com/TollKit/tollkit/blob/master/web_app/server/flask_app/QRcard_vacunation/docCarnetVacunacion.md)
 * [Diseño 3D](https://github.com/)
-* [Desarrollo Web](https://github.com/)
+* [Desarrollo Web](https://github.com/TollKit/tollkit/blob/master/web_app/server/docDesarrolloWeb.md)
 
 ## Equipo
 
