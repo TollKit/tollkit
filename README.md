@@ -2,27 +2,25 @@
 
 ![](https://img.shields.io/badge/tensorflow-%3E%3D1.15.2-brightgreen) ![](https://img.shields.io/badge/keras-2.3.1-brightgreen) ![](https://img.shields.io/badge/imutils-0.5.3-brightgreen) ![](https://img.shields.io/badge/numpy-1.18.2-brightgreen) ![](https://img.shields.io/badge/opencv--python-4.2.0.*-brightgreen) ![](https://img.shields.io/badge/matplotlib-3.2.1-brightgreen) ![](https://img.shields.io/badge/scipy-1.4.1-brightgreen) ![](https://img.shields.io/badge/flask-2.0.2-orange) ![](https://img.shields.io/badge/flask--bcrypt-0.7.1-orange) ![](https://img.shields.io/badge/jinja2-3.0.3-orange) ![](https://img.shields.io/badge/pymysql-1.0.2-orange) ![](https://img.shields.io/badge/selenium-4.1.0-brightgreen) ![](https://img.shields.io/badge/pyautogui-0.9.53-red) ![]() ![]() ![]() ![]() ![]() ![]() ![]() 
 
-<center><a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/SsHgvXcM/Toll-Kit-github.png' border='0' alt='Toll-Kit-github'/></a></center>
-
----
+ <a width="400" href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/SsHgvXcM/Toll-Kit-github.png' border='0' alt='Toll-Kit-github'/></a>
 
 ## Acerca del Proyecto
 
+<a href='https://postimg.cc/GTtQ7r0N' target='_blank'><img src='https://i.postimg.cc/kGFp5XTn/Whats-App-Image-2022-09-27-at-5-39-10-PM.jpg' border='0' alt='Whats-App-Image-2022-09-27-at-5-39-10-PM'/></a>
+
 ### Motivación
 
+Buscamos inspirar a la próxima generación de científicxs e ingenierxs para que nos ayuden a explorar y aprender sobre tecnología. Compartimos la documentación completa de este dispositivo como una forma de aporte al desarrollo tecnológico a través de un proyecto divertido.
 
 ### Habilidades
 
-Este proyecto tiene elementos de ensamblaje mecánico, utiliza componentes electrónicos y tiene un software que lo ejecutará todo. Para completar con éxito este proyecto necesitará tener algo de experiencia en lo siguiente:
+Este proyecto tiene elementos de ensamblaje mecánico, utiliza componentes electrónicos y tiene un software que se encargará de ejecturar todo. Para completar con éxito este proyecto necesitará tener algo de experiencia en lo siguiente:
 
-* **Diseño Mécanico:**
+* **Diseño Mécanico:** Para diseñar el chasis junto a los compartimentos para almacenar cada módulo electrónico.
 
+* **Electrónica:** Para implementar los diferentes módulos electrónicos que luego serán comunicados por MQTT a Flask.
 
-* **Electrónica:**
-
-
-
-* **Software::**
+* **Software::** Para el reconocimiento de mascarilla, detección del carnet de vacunación a través del QR y el desarrollo web.
 
 La mayoría de requisitos son habilidades que puede aprender y adquirir con bastante rapidez viendo videos e investigando en Internet, y a lo largo del proyecto también tratamos de brindar información complementaria sobre algunas de ellas.
 
