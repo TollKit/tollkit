@@ -20,7 +20,7 @@ Este proyecto tiene elementos de ensamblaje mecánico, utiliza componentes elect
 
 * **Electrónica:** Para implementar los diferentes módulos electrónicos que luego serán comunicados por MQTT a Flask.
 
-* **Software::** Para el reconocimiento de mascarilla, detección del carnet de vacunación a través del QR y el desarrollo web.
+* **Software:** Para el reconocimiento de mascarilla, detección del carnet de vacunación a través del QR y el desarrollo web.
 
 La mayoría de requisitos son habilidades que puede aprender y adquirir con bastante rapidez viendo videos e investigando en Internet, y a lo largo del proyecto también tratamos de brindar información complementaria sobre algunas de ellas.
 
