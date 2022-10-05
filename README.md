@@ -53,7 +53,7 @@ Esta es una ruta para construir un TollKit y se divide en 6 etapas:
 
 ## Equipo
 
-Estos fueron los creadores originales de este proyecto. Ahora, este repositorio de código abierto está a cargo de mantenedores voluntarios de la comunidad.
+Estos fueron los creadores originales de este proyecto. Ahora, este repositorio open source está a la disposición de la comunidad tecnológica.
 
 <ul>
     <li>Sebastián Nizama (Electónica) - octavio.nizama.z@uni.pe </li>
