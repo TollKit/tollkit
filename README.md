@@ -26,7 +26,7 @@ La mayoría de requisitos son habilidades que puede aprender y adquirir con bast
 
 ### Compromiso de tiempo esperado
 
-Según nuestra experiencia, la construcción de este proyecto requiere no menos de 100 horas-persona y, según la familiaridad y el nivel de habilidad de los involucrados, podría ser mucho más. *Sin embargo, este proyecto generalmente pretende ser una herramienta de enseñanza y aprendizaje.* A lo largo de la documentación, tratamos de brindar información complementaria para aquellos que puedan ser nuevos en este tipo de proyecto.
+Según nuestra experiencia, la construcción de este proyecto requiere no menos de 100 horas-persona y, según la familiaridad y el nivel de habilidad de los involucrados, podría ser mucho más. *Sin embargo, este proyecto principalmente pretende ser una herramienta de enseñanza y aprendizaje.* A lo largo de la documentación, tratamos de brindar información complementaria para aquellos que puedan ser nuevos en este tipo de proyecto.
 
 
 
