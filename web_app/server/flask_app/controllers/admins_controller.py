@@ -72,7 +72,7 @@ def dashboard():
     # Le mando mis datos y recibo un OBJETO USUARIO   
     # Usuario que INICIÓ SESIÓN  
     # user=Admin.get_by_id(data)
-
+    import time
     # # Agregamos las products
     # products=Tollkit.get_all()
     lista_dicc = []
@@ -94,6 +94,10 @@ def dashboard():
             print("----[Paso 5: DISPENSANDO ALCOHOL EN GEL]----")
             data_alcohol = subscriber_alcohol.main()
 
+    fecha_actual=time.strftime("%Y-%m-%d")
+    print(fecha_actual)
+    # temp_fecha_actual = time.strptime(fecha_actual, "%Y-%m-%d")
+
     dicc={
         "temp":data_temp,
         "has_studentCard":data_rfid,
@@ -101,6 +105,7 @@ def dashboard():
         "name":data_qr_card[0],
         "has_mask":data_mask_status,
         "has_alcohol":data_alcohol,
+        "date": fecha_actual,
     }
     lista_dicc.append(dicc)
     print(lista_dicc)
