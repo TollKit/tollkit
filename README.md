@@ -56,10 +56,10 @@ Esta es una ruta para construir un TollKit y se divide en 6 etapas:
 Estos fueron los creadores originales de este proyecto. Ahora, este repositorio open source está a la disposición de la comunidad tecnológica.
 
 <ul>
-    <li>Sebastián Nizama (Electónica) - octavio.nizama.z@uni.pe </li>
-    <li>Richard Elescano (Electónica) - relescanor@uni.pe</li>
+    <li>Sebastián Nizama (Electrónica) - octavio.nizama.z@uni.pe </li>
+    <li>Richard Elescano (Electrónica) - relescanor@uni.pe</li>
     <li>Marko Julca (Visión Computarizada) - marko.julca.g@uni.pe</li>
-    <li>Nicolás Silva (Electónica & Diseño 3D) - nicolas.silva.m@uni.pe</li>
+    <li>Nicolás Silva (Electrónica & Diseño 3D) - nicolas.silva.m@uni.pe</li>
     <li>Jhomar Astuyauri (Producto & Desarrollo Web) - jhomar.astuyauri.h@uni.pe</li>
 </ul>
 
