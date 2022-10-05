@@ -42,11 +42,11 @@ Esta es una ruta para construir un TollKit y se divide en 6 etapas:
 
 * **Etapa 2:** Consigue todos los componentes electrónicos, filamento y elabora una arquitectura de software.
 * **Etapa 3:** Empieza a probar el correcto funcionamiento de cada módulo electrónico por separado y descarga las librerías/frameworks necesarios.
-* **Etapa 4:** Ensambla el diseño 3D...
-* **Etapa 5:**
-* **Etapa 6:**
+* **Etapa 4:** Ensambla el diseño 3D y prueba los módulos de visión computarizada.
+* **Etapa 5:** Monta los módulos electrónicos en el chasis e integralos con el servidor de Flask.
+* **Etapa 6:** Después de que todo haya sido probado, calibrado y el software esté funcionando, ¡TollKit estará listo para su uso!
 
-## <Empieza aquí>
+## Empieza aquí
 
 * [Electrónica](https://github.com/)
 * [Visión Computarizada](https://github.com/)
