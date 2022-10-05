@@ -1,4 +1,4 @@
-<h1>Desarrollo Electrónico</h1>
+<h1>Desarrollo Electrónico  [Próximamente]</h1>
 
 
 <h3>Componentes electrónicos</h3>
