@@ -54,11 +54,11 @@ Esta es una ruta para construir un TollKit y se divide en 6 etapas:
 Estos fueron los creadores originales de este proyecto. Ahora, este repositorio de código abierto está a cargo de mantenedores voluntarios de la comunidad.
 
 <ul>
-    <li>Sebastián Nizama</li>
-    <li>Richard Elescano</li>
-    <li>Marko Julca</li>
-    <li>Nicolás Silva</li>
-    <li>Jhomar Astuyauri</li>
+    <li>Sebastián Nizama - Electónica</li>
+    <li>Richard Elescano - Electónica</li>
+    <li>Marko Julca - Visión Computarizada</li>
+    <li>Nicolás Silva - Electónica & Diseño 3D</li>
+    <li>Jhomar Astuyauri - Producto & Desarrollo Web</li>
 </ul>
 
 ### Especial agradecimiento
