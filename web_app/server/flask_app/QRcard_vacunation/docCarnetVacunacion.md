@@ -10,8 +10,10 @@ La interacción física con Tollkit en el proceso de automatización se dara med
 * [Selenium](https://github.com/SeleniumHQ/selenium)
 <h3>Automatización de la página del Minsa</h3>
 <p>Para el proceso de automatización de la pagina:</p>
+<ul>
   <li>Atravez del API Selenium, atravez del lenguaje de programación de Python, comanzaremos controlando mediante un WebDriver el navegador que usaremos sera Chrome:
 https://chromedriver.chromium.org/downloads, para saber la versión que se debera descargar, nos dirigimos a la sección-Ayuda-del navegador posteriormente se le dara a -Información de Google Chrome-y se podra observar la versión que se este usando, para luego pasar a la descarga del controlador del navegador.</li>
 <li>Para la codificación identificaremos la ruta en donde guardamos el controlador del navegador: C:/Program Files (x86)/chromedriver.exe, definimos como path a esta ruta, posteriormente usaremos la ruta de la página:     website='https://carnetvacunacion.minsa.gob.pe/#/verify-qr/enable, usaremos webdriver.Chrome para poder abrir la página que desea usar, creamos los elementos nombres, dosis y edad, usaremos el atributo xpath, usaremos el método que nos
 devolvera una lista de palabras claves que queremos que nos retorne, en este caso el nombre del usuario, la palabra que muestre la cantidad de dosis y la edad, el atributo usado sera el find_element.' 
 </li>
+ </ul>
