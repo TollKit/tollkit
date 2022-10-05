@@ -43,7 +43,7 @@ def main():
     global diccionario
     global rfid_data
     cliente = mqtt.Client()
-    cliente.connect("localhost",1883)
+    cliente.connect("172.20.10.5",1883)
 
     cliente.on_connect = conectado
     cliente.on_message = receptor
