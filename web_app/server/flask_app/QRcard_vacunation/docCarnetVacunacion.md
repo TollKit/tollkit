@@ -1,4 +1,4 @@
-<h1>Desarrollo de la Detección de Carnet de Vacunación a través del QR  [Próximamente]</h1>
+<h1>Desarrollo de la Detección de Carnet de Vacunación a través del QR  </h1>
 # Codigo-QR
 ## Acerca de la automatización para el acceso
 Para un mayor alcance en la data de las personas en relación a las dosis de la vacuna contra la covid 19, el minsa es la institución la cual
