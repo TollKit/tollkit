@@ -55,6 +55,24 @@ Esta es una ruta para construir un TollKit y se divide en 6 etapas:
 * **Etapa 5:**
 * **Etapa 6:**
 
+## Obtener ayuda/unirse a la comunidad
+
+
+## Equipo
+
+Estos fueron los creadores originales de este proyecto. Ahora, este repositorio de código abierto está a cargo de mantenedores voluntarios de la comunidad.
+
+<ul>
+    <li>Sebastián Nizama</li>
+    <li>Richard Elescano</li>
+    <li>Marko Julca</li>
+    <li>Nicolás Silva</li>
+    <li>Jhomar Astuyauri</li>
+</ul>
+
+### Especial agradecimiento
+
+Héctor Llamaccponca, Jean Kevin Inga y Paulo Quispe
 
 ------------------------------------------------------------------------
 
@@ -127,11 +145,3 @@ Por esa razón decidimos crear TollKit, una herramienta que busca complementar l
 <h2>aplicación web</h2>
 <h3>Programa de detección de mascarilla</h3>
 
-<h2>Team Members</h2>
-<ul>
-    <li>Sebastián Nizama</li>
-    <li>Richard Elescano</li>
-    <li>Marko Julca</li>
-    <li>Nicolás Silva</li>
-    <li>Jhomar Astuyauri</li>
-</ul>
