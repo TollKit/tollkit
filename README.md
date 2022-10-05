@@ -46,8 +46,12 @@ Esta es una ruta para construir un TollKit y se divide en 6 etapas:
 * **Etapa 5:**
 * **Etapa 6:**
 
-## Obtener ayuda/unirse a la comunidad
+## <Empieza aquí>
 
+* [Electrónica](https://github.com/)
+* [Visión Computarizada](https://github.com/)
+* [Diseño 3D](https://github.com/)
+* [Desarrollo Web](https://github.com/)
 
 ## Equipo
 
