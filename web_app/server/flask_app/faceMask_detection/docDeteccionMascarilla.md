@@ -25,3 +25,12 @@ MobileNetV2 es una arquitectura de red neuronal convolucional que busca funciona
 
 * Tensorflow 1.7.0
 
+## Solución de errores
+
+ARCHIVO:
+En el archivo detect_mask_video.py
+Revisar línea 76 y 77:
+Path a los archivos .model y .prototxt
+
+Revisar línea la implementación del algoritmo de detección en la línea 112.
+Explicación: La idea era que el script se cierre cada vez que detectaba una mascarilla, la variable cont (contador) se emplea para aproximar que la persona lleve la mascarilla puesta al menos 2seg (cont=20), ahí el script entrega la variable “Tiene Mascarilla” y de caso contrario, si el contador de frames sin mascarilla es 110, el script se cierra y se entrega la variable “No tiene Mascarilla”
