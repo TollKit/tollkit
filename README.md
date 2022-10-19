@@ -8,6 +8,10 @@
 
 <a href='https://postimg.cc/GTtQ7r0N' target='_blank'><img src='https://i.postimg.cc/kGFp5XTn/Whats-App-Image-2022-09-27-at-5-39-10-PM.jpg' border='0' alt='Whats-App-Image-2022-09-27-at-5-39-10-PM'/></a>
 
+### Demo
+
+https://drive.google.com/file/d/1ykN8uWTC-Xn_GCya3o3VD92Z7eDFktyV/view?usp=sharing
+
 ### Motivación
 
 Buscamos inspirar a la próxima generación de científicxs e ingenierxs para que nos ayuden a explorar y aprender sobre tecnología. Compartimos la documentación completa de este dispositivo como una forma de aporte al desarrollo tecnológico a través de un proyecto divertido.
