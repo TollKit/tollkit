@@ -63,12 +63,14 @@ Esta es una ruta para construir un TollKit y se divide en 6 etapas:
 
 Estos fueron los creadores originales de este proyecto. Ahora, este repositorio open source está a la disposición de la comunidad tecnológica.
 
+[![Whats-App-Image-2022-09-13-at-5-15-29-PM.jpg](https://i.postimg.cc/kgLqZKfh/Whats-App-Image-2022-09-13-at-5-15-29-PM.jpg)](https://postimg.cc/Bj5rPLWx)
+
 <ul>
-    <li>Sebastián Nizama (Electrónica) - octavio.nizama.z@uni.pe </li>
-    <li>Richard Elescano (Electrónica) - relescanor@uni.pe</li>
-    <li>Marko Julca (Visión Computarizada) - marko.julca.g@uni.pe</li>
-    <li>Nicolás Silva (Electrónica & Diseño 3D) - nicolas.silva.m@uni.pe</li>
-    <li>Jhomar Astuyauri (Producto & Desarrollo Web) - jhomar.astuyauri.h@uni.pe</li>
+    <li>[Sebastian Nizama](https://www.linkedin.com/in/sebastian-nizama/) Sebastián Nizama (Electrónica) </li>
+    <li>[Richard Elescano](https://www.linkedin.com/in/richard-elescano-reyna-9a6311224/) (Electrónica) </li>
+    <li>[Marko Julca](https://www.linkedin.com/in/markostephano/) (Visión Computarizada & Diseño 3D) </li>
+    <li>[Nicolas Silva](https://www.linkedin.com/in/nicolas-silva-matute/) (Electrónica & Diseño 3D) </li>
+    <li>[Jhomar Astuyauri](https://www.linkedin.com/in/jhomar-astuyauri/) (Producto & Desarrollo de Software) </li>
 </ul>
 
 ### Especial agradecimiento
